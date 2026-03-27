@@ -44,6 +44,9 @@ Como parte da resposta ao incidente, as seguintes medidas de mitigação foram p
 3.  **Configuração de Rate Limiting:** Ajuste de limites de requisições por segundo em Firewalls de Próxima Geração (NGFW) para detectar e barrar anomalias de tráfego antes que atinjam o servidor web.
 4.  **Resiliência de DNS:** Implementação de redundância com servidores DNS secundários para evitar pontos únicos de falha na resolução de nomes.
 
+Clique aqui para ler o Relatório Técnico de Incidente (PDF)
+📄 [Clique aqui para ler o Relatório Técnico de Incidente (PDF)](Relatório de Incidente de Segurança Cibernética.pdf)
+
 ---
 
 ## 🎓 Conclusão
