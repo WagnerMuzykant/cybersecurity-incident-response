@@ -25,6 +25,15 @@ Através da inspeção de logs do **Wireshark**, identifiquei um padrão clássi
 - **Impacto:** Negação de serviço (DoS) por esgotamento de memória/CPU.
 
 ---
+### 🔎 Evidência da Captura (Wireshark)
+| Time | Source IP | Destination IP | Protocol | Flags | Info |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 13:24:32.19 | 192.51.100.15 | 203.0.113.2 | TCP | [SYN] | Port 80, Seq 0, Win 64240 |
+| 13:24:32.45 | 192.51.100.15 | 203.0.113.2 | TCP | [SYN] | Port 80, Seq 0, Win 64240 |
+| 13:24:32.72 | 192.51.100.15 | 203.0.113.2 | TCP | [SYN] | Port 80, Seq 0, Win 64240 |
+| 13:24:32.98 | 192.51.100.15 | 203.0.113.2 | TCP | [SYN] | Port 80, Seq 0, Win 64240 |
+
+> **Nota:** O padrão acima demonstra a inundação de pacotes de sincronização (SYN) sem a resposta final (ACK), esgotando os recursos do servidor.
 
 ## ✅ Resposta e Plano de Ação 
 
