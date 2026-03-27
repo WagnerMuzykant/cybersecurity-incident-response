@@ -45,7 +45,7 @@ Como parte da resposta ao incidente, as seguintes medidas de mitigação foram p
 4.  **Resiliência de DNS:** Implementação de redundância com servidores DNS secundários para evitar pontos únicos de falha na resolução de nomes.
 
 Clique aqui para ler o Relatório Técnico de Incidente (PDF)
-📄 [Clique aqui para ler o Relatório Técnico de Incidente (PDF)](./Relatório de Incidente de Segurança Cibernética.pdf)
+📄 [Clique aqui para ler o Relatório Técnico de Incidente (PDF)](./relatorio-incidente.pdf)
 
 ---
 
